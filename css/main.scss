@@ -1,0 +1,53 @@
+---
+# translate file to css
+---
+@import "solarized";
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+b {
+    font-weight: 700;
+}
+
+code {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo {
+    font-family: 'Unica One', sans-serif;
+    position:relative;
+    @media (min-width: 786px) {
+        font-size: 1.4em;
+    }
+    @media (min-width: 992px) {
+        font-size: 1.7em;
+    }
+    @media (min-width: 1200px) {
+        font-size: 2em;
+    }
+
+    .name { 
+        //font-variant: small-caps;
+        //text-transform: lowercase;
+    }
+    .dot {
+        position: relative;
+        top: -0.3ex;
+        color: $red;
+    }
+    .tld { 
+        font-size: 0.9em;
+    }
+}
+
+
