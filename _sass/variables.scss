@@ -1,0 +1,15 @@
+// Small screen / tablet
+$screen-sm-min:              768px !default;
+// Medium screen / desktop
+$screen-md-min:              992px !default;
+// Large screen / wide desktop
+$screen-lg-min:              1200px !default;
+// Huge screen
+$screen-hg-min:              2000px !default;
+
+$base-margin:                 40px !default;
+
+$container-sm:                 (($screen-sm-min * 0.8) + $base-margin) !default;
+$container-md:                 (($screen-md-min * 0.8) + $base-margin) !default;
+$container-lg:                 (($screen-lg-min * 0.8) + $base-margin) !default;
+$container-hg:                 (($screen-hg-min * 0.8) + $base-margin) !default;
