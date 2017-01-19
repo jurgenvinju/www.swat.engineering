@@ -8,6 +8,7 @@ html {
     display: table;
     margin: auto;
     background-color: white;
+    @include rebase(white,$base2,$base1,$base0,$base00,$base01,$base02,$base03)
 }
 
 body {

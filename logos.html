@@ -1,0 +1,39 @@
+---
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Logo's</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Unica+One|Comfortaa|Overlock|Poiret+One|Righteous" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" integrity="sha256-t2/7smZfgrST4FS1DT0bs/KotCM74XlcqZN5Vu7xlrw=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="{{site.baseurl}}/css/main.css" />
+        <link rel="stylesheet" href="{{site.baseurl}}/css/logos.css" />
+    </head>
+    <body>
+        <div id="container">
+            <div class="logoTest">
+                <h1><span class="swat">SWAT</span><span class="dot">.</span><span class="tld">engineering</span></h1>
+                <h2>Experts in Software Analysis and Transformation</h2>
+            </div>
+        </div>
+        <script>
+            var logoStyles = ["base", "base2", "base3","boxed", "boxed2", "font1", "font2","font3", "font4", "font5", "font6","font7", "font8"];
+            var container = document.getElementById("container");
+            var logo = container.lastChild;
+            for (var l in container.childNodes) {
+                logo = container.childNodes[l];
+                if (logo.className == "logoTest") {
+                    break;
+                }
+            }
+            container.removeChild(logo);
+            for (var l in logoStyles) {
+                var newLogo = logo.cloneNode(true);
+                newLogo.className += " " + logoStyles[l];
+                container.appendChild(newLogo);
+            }
+        </script>
+    </body>
+</html>
