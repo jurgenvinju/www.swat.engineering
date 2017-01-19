@@ -17,5 +17,5 @@ Our aim is to :
     </tr>
 </table>
 
-Customers: [sales@swat.engineering](mailto:sales@swat.engineering) <br/>
-Careers: [careers@swat.engineering](mailto:careers@swat.engineering)
+Customers: [solutions@swat.engineering](mailto:solutions@swat.engineering) <br/>
+Careers: [work@swat.engineering](mailto:work@swat.engineering)
