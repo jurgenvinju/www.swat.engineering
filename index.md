@@ -14,6 +14,7 @@ Our aim is to :
         <td> Paul Klint </td>
         <td> Davy Landman </td>
         <td> Jurgen Vinju </td>
+        <td> <a href="https://www.cwi.nl/research-groups/software-analysis-and-transformation">Centrum Wiskunde &amp; Informatica</a></td>
     </tr>
 </table>
 
